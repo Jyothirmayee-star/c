@@ -1,0 +1,24 @@
+//celsius to fahrenheit
+#include <stdio.h>
+int main(){
+    float celsius,fahrenheit;
+    printf("enter celsius:");
+    scanf("%f",&celsius);
+    fahrenheit=(9.0/5.0)*celsius+32;
+    printf("fahrenheit: %2f",fahrenheit);
+    
+    return 0;
+    
+}
+//fahrenheit to celsius
+#include <stdio.h>
+int main(){
+    float celsius,fahrenheit;
+    printf("enter fahrenheit:");
+    scanf("%f",&fahrenheit);
+    celsius=5 * (fahrenheit - 32) / 9;
+    printf("celsius: %2f",celsius);
+    
+    return 0;
+    
+}
